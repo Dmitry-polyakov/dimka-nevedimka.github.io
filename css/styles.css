@@ -109,9 +109,15 @@ section {
 	padding-bottom: 12rem;
 }
 
+.two-buttons {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+
+}
+
 /* Главная кнопка */
 .btn {
-	margin-left: 30px;
+	margin-inline: 2rem;
 	padding: 10px 30px;
 	font-size: 20px;
 	color: black;
@@ -128,6 +134,23 @@ section {
 	background-color: #7EF585;
 }
 
+.first-textbox {
+	border-radius: 50px;
+	background-color: #7EF585;
+	text-align: center;
+	padding: 10px 30px;
+	font-size: 20px;
+	font-weight: 400;
+	overflow-wrap: break-word;
+}
+
+.first-textbox-title {
+	font-weight: 500;
+	font-size: 30px;
+
+}
+
+
 .card {
 	border-radius: 50px;
 }
@@ -135,6 +158,41 @@ section {
 /* Нижняя часть стайта */
 footer {
 	box-shadow: 4px 0 10px rgba(0, 0 ,0, .1) ;
+}
+
+.transparent-footer {
+    background-color: rgba(255, 255, 255, 0.5); /* Прозрачный белый фон */
+    color:#000000; 
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content,
+.legal-documents,
+.social-links {
+    text-align: left;
+}
+
+.legal-documents ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.legal-documents li {
+    margin-bottom: 10px;
+}
+
+.social-links img {
+    width: 30px; /* Размер иконок */
+    height: auto;
+}
+
+/* Добавляем черную линию под юридическими документами */
+.legal-documents p:last-child {
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
 }
 
 
