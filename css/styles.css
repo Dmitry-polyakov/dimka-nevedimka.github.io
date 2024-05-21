@@ -2,15 +2,17 @@
 
 body {
 	position: relative;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
-	background-color:rgb(255, 249, 207);
+	font-weight: 550;
+	background-color: rgb(255, 255, 255);
 	line-height: 1.4;
-	color: #000;
+	color: #000;	
 	min-width: 280px;
 	overflow-x: hidden;
 	height: auto;
 }
+
 
 /* НАВИГАЦИОННАЯ ПАНЕЛЬ */
 
@@ -20,12 +22,12 @@ body {
 	box-shadow: 0 4px 10px rgba(0, 0 ,0, .1) ;
 }
 
-/* Полоски под ссылками ссылок */
+/* Полоски под ссылками */
 .top-menu li a::after{
 	content: '';
 	display: block;
 	width: 100%;
-	background-color: green;
+	background-color: #7EF585;
 	height: 1px;
 	transition: all .3s;
 	transform: scale(0);
@@ -35,7 +37,7 @@ body {
 .top-menu li a:hover::after{
 	transform: scale(1);
 	opacity: 1;
-	color: green;
+	color: #7EF585;
 }
 
 /* Ссылки */
@@ -51,73 +53,83 @@ body {
 /* Ссылки при наведении */
 .nav-link:hover {
 	opacity: 1;
-	color: green;
+	color: #7EF585;
 }
 
 /* Логотип */
 .navbar-brand {
-	font-weight: 700;
-	font-size: 20px;
-	text-decoration: none;
-	color: #000;
-	transition: all .2s ease-in-out;
+	height: 100px;
 
 }
 
-/* Логотип при наведении */
-.navbar-brand:hover {
-	color: green;
+.fa-circle-user {
+	padding-left: 0.3em;
 }
 
 /* Выпадающее меню регистрации */
 .btn1 {
 	margin-left: 30px;
 	padding: 10px 30px;
-	color: white;
+	font-weight: 550;
+	color: black;
 	text-decoration: none;
-	background-color: green;
-	border-radius: 100px;
+	background-color: #7EF585;
+	border-radius: 50px;
 	transition: all .2s ease-in-out;
 }
 
 .btn1:hover {
 	transform: scale(1.04);
-	color: white;
-	background-color: green;
+	color: black;
+	background-color: #7EF585;
 }
 
 /* ОСНОВНАЯ ЧАСТЬ САЙТА */
 section {
-	height: 720px;
+	height: 1700px;
 }
 
-/* Выравнивание кнопки по центру */
-.left-section {
-	margin: auto;
+.main-text {
+	text-align: center;
+	font-size: 50px;
+	font-weight: 400;
+	margin: 0;
+}
+
+.sub-text {
+	text-align: center;
+	font-size: 30px;
+	font-weight: 400;
+
 }
 
 /* Оступ от Навигационной панели (ХЗ КАК ЭТО НОРМАЛЬНО РЕАЛИЗОВАТЬ) */
 .section-container {
-	padding-top: 12rem;
+	padding-top: 9rem;
+	padding-bottom: 12rem;
 }
 
 /* Главная кнопка */
 .btn {
 	margin-left: 30px;
 	padding: 10px 30px;
-	font-size: 40px;
-	color: white;
+	font-size: 20px;
+	color: black;
 	text-decoration: none;
-	background-color: green;
-	border-radius: 100px;
+	background-color: #7EF585;
+	border-radius: 50px;
 	transition: all .2s ease-in-out;
 }
 
 /* Главная кнопка при наведении */
 .btn:hover {
 	transform: scale(1.04);
-	color: white;
-	background-color: green;
+	color: black;
+	background-color: #7EF585;
+}
+
+.card {
+	border-radius: 50px;
 }
 
 /* Нижняя часть стайта */
