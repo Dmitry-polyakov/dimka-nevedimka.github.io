@@ -181,7 +181,9 @@ section {
 
 .price-cards {
 		display: flex;
-		justify-content: space-between; /* Равномерное распределение между элементами */
+		justify-content: space-between;
+		margin-top: 9rem;
+		margin-bottom: 9rem;
 }
 
 
@@ -230,7 +232,7 @@ section {
 	transition: all .2s ease-in-out;
 }
 
-/* Главная кнопка при наведении */
+/* Кнопка покупки при наведении */
 .btn-card:hover {
 	border-style: solid;
 	border-color: #000;
@@ -238,6 +240,19 @@ section {
 	transform: scale(1.04);
 	color: black;
 	background-color: white;
+}
+
+ul {
+	list-style-type: none; /* Убирает стандартную нумерацию */
+	padding: 0; /* Убирает отступы у списка */
+}
+
+li {
+	margin: 1em;
+}
+
+.check-img {
+	width: 20px;
 }
 
 /* Нижняя часть стайта */
