@@ -104,9 +104,9 @@ section {
 }
 
 /* Оступ от Навигационной панели (ХЗ КАК ЭТО НОРМАЛЬНО РЕАЛИЗОВАТЬ) */
-.section-container {
+.img-container {
 	padding-top: 9rem;
-	padding-bottom: 12rem;
+	padding-bottom: 9rem;
 }
 
 .two-buttons {
@@ -134,6 +134,19 @@ section {
 	background-color: #7EF585;
 }
 
+.people-icon {
+	width: 55px;
+	margin: 0;
+}
+
+.user-icon {
+	width: 40px;
+}
+
+.text-container {
+	max-width: 900px;
+}
+
 .first-textbox {
 	border-radius: 50px;
 	background-color: #7EF585;
@@ -141,7 +154,6 @@ section {
 	padding: 10px 30px;
 	font-size: 20px;
 	font-weight: 400;
-	overflow-wrap: break-word;
 }
 
 .first-textbox-title {
@@ -150,9 +162,31 @@ section {
 
 }
 
+.price-cards {
+		display: flex;
+		justify-content: space-between; /* Равномерное распределение между элементами */
+}
 
-.card {
+
+.card-free {
 	border-radius: 50px;
+	background-color: #9494944f;
+}
+
+.card-premium {
+	border-radius: 50px;
+	background-color: #25f9304f;
+}
+
+.card-corporate {
+	border-radius: 50px;
+	background-color: #f4a9394f;
+}
+
+.card-title {
+	text-align: center;
+	font-weight: 550;
+	font-size: xx-large;
 }
 
 /* Нижняя часть стайта */
