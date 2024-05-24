@@ -68,6 +68,9 @@ body {
 
 /* Выпадающее меню регистрации */
 .btn1 {
+	border-style: solid;
+	border-color: #000;
+	border-width: 2px;
 	margin-left: 30px;
 	padding: 10px 30px;
 	font-weight: 550;
@@ -79,6 +82,9 @@ body {
 }
 
 .btn1:hover {
+	border-style: solid;
+	border-color: #000;
+	border-width: 2px;
 	transform: scale(1.04);
 	color: black;
 	background-color: #7EF585;
@@ -117,6 +123,9 @@ section {
 
 /* Главная кнопка */
 .btn {
+	border-style: solid;
+	border-color: #000;
+	border-width: 2px;
 	margin-inline: 2rem;
 	padding: 10px 30px;
 	font-size: 20px;
@@ -129,6 +138,9 @@ section {
 
 /* Главная кнопка при наведении */
 .btn:hover {
+	border-style: solid;
+	border-color: #000;
+	border-width: 2px;
 	transform: scale(1.04);
 	color: black;
 	background-color: #7EF585;
@@ -162,6 +174,11 @@ section {
 
 }
 
+.card-body {
+	display: grid;
+	place-items: center;
+}
+
 .price-cards {
 		display: flex;
 		justify-content: space-between; /* Равномерное распределение между элементами */
@@ -169,24 +186,58 @@ section {
 
 
 .card-free {
+	border-style: solid;
+	border-color: #000;
+	border-width: 2px;
 	border-radius: 50px;
 	background-color: #9494944f;
 }
 
 .card-premium {
+	border-style: solid;
+	border-color: #000;
+	border-width: 2px;
 	border-radius: 50px;
 	background-color: #25f9304f;
 }
 
 .card-corporate {
+	border-style: solid;
+	border-color: #000;
+	border-width: 2px;
 	border-radius: 50px;
 	background-color: #f4a9394f;
 }
 
 .card-title {
-	text-align: center;
 	font-weight: 550;
 	font-size: xx-large;
+	color: white; /* Цвет текста */
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Тень текста */
+}
+
+.btn-card {
+	border-style: solid;
+	border-color: #000;
+	border-width: 2px;
+	margin-inline: 2rem;
+	padding: 10px 30px;
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
+	background-color: white;
+	border-radius: 50px;
+	transition: all .2s ease-in-out;
+}
+
+/* Главная кнопка при наведении */
+.btn-card:hover {
+	border-style: solid;
+	border-color: #000;
+	border-width: 2px;
+	transform: scale(1.04);
+	color: black;
+	background-color: white;
 }
 
 /* Нижняя часть стайта */
