@@ -260,8 +260,13 @@ li {
 	width: 20px;
 }
 
-.first-textbox {
-	max-width: 900px;
+.text-container {
+	overflow-wrap: anywhere;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 5rem;
+	margin-right: 5rem;
 }
 
 /* Нижняя часть стайта */
