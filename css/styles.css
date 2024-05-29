@@ -320,18 +320,29 @@ footer {
 }
 
 .transparent-footer {
-    background-color: rgba(255, 255, 255, 0.5); /* Прозрачный белый фон */
+    background-color: white;
     color:#000000; 
     padding: 20px;
-    display: flex;
+}
+
+.footer-1 {
+	display: flex;
     justify-content: space-between;
     align-items: center;
+	margin-inline: 6rem;
+	margin-top: 0.5rem;
+	margin-bottom: 1rem;
+    border-bottom: 1px solid black;
 }
 
 .footer-content,
 .legal-documents,
 .social-links {
     text-align: left;
+}
+
+.social-links {
+	margin-inline: 6rem;
 }
 
 .legal-documents ul {
