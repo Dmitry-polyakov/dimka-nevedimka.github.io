@@ -47,10 +47,7 @@
 							<a class="nav-link" href="#">Контакты</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Пожертвования</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Хз что</a>
+							<a class="nav-link" href="#">Подписка</a>
 						</li>
 					</ul>
 
@@ -117,10 +114,36 @@
 				<div class="row two-buttons">
 					<div class="col-lg-2"></div>
 					<div class="left-section col-lg-4 col-md-12">
-						<a href="#" class="btn"><img src="images/user_456283.png" alt="" class="user-icon">
-							<p>Загружайте и проверяйте свои работы</p>
-							<p>Студентам/Частным лицам</p>
-						</a>
+						<!-- Button trigger modal -->
+							<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#inspectionModal">
+								<img src="images/user_456283.png" alt="" class="user-icon">
+								<p>Загружайте и проверяйте свои работы</p>
+								<p>Студентам/Частным лицам</p>
+							</button>
+							
+							<!-- Modal -->
+							<div class="modal fade " id="inspectionModal" tabindex="-1" aria-labelledby="inspectionModalLabel" aria-hidden="true">
+								<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+									<h1 class="modal-title  fs-5" id="inspectionModalLabel">Загрузи файл с твоей работой</h1>
+									</div>
+									<div class="modal-body">
+									<div class="drop-area">
+										<div class="drop-area-centered">
+											<p class="text-drop-area">Перетащи документ (.docx) сюда или</p>
+										</div>
+										<div class="drop-area-centered">
+											<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Загрузи с компьютера</button>
+										</div>
+									</div>
+									</div>
+									<div class="modal-footer centered">
+										<button type="button" class="btn btn-file btn-primary">Начать проверку</button>
+									</div>
+								</div>
+								</div>
+							</div>
 					</div>
 					<div class="right-section col-lg-4 col-md-12">
 						<a href="#" class="btn"><img src="images/people.png" alt="" class="people-icon">
@@ -133,7 +156,7 @@
 			</div>
 			<div class="row price-cards">
 				<div class="card card-free" style="width: 20rem;">
-					<div class="card-body">
+					<div class="card-body centered">
 						<h5 class="card-title">FREE</h5>
 						<ul>
 							<li><img src="images/check_463574.png" alt="" class="check-img ms-1">Гарантия
@@ -147,11 +170,11 @@
 							<li><img src="images/multiply_399274.png" alt="" class="check-img ms-1">Безлимитная проверка
 							</li>
 						</ul>
-						<a href="#" class="btn-card">Купить</a>
+						<a href="#" class="btn-card">Ознакомиться</a>
 					</div>
 				</div>
 				<div class="card card-premium" style="width: 20rem;">
-					<div class="card-body">
+					<div class="card-body centered">
 						<h5 class="card-title" style="font-weight: 600;">PREMIUM</h5>
 						<ul>
 							<li><img src="images/check_463574.png" alt="" class="check-img ms-1">Гарантия
@@ -168,7 +191,7 @@
 					</div>
 				</div>
 				<div class="card card-corporate" style="width: 20rem;">
-					<div class="card-body">
+					<div class="card-body centered">
 						<h5 class="card-title">CORPORATE</h5>
 						<ul>
 							<li><img src="images/check_463574.png" alt="" class="check-img ms-1">Гарантия
