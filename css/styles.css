@@ -10,8 +10,8 @@ body {
 	color: #000;	
 	min-width: 280px;
 	overflow-x: hidden;
-	height: 
-	auto;
+	height: auto;
+	scroll-behavior: smooth;
 }
 
 .centered {
@@ -41,7 +41,7 @@ body {
 	content: '';
 	display: block;
 	width: 100%;
-	background-color: #7EF585;
+	background-color: #000;
 	height: 1px;
 	transition: all .3s;
 	transform: scale(0);
@@ -51,7 +51,7 @@ body {
 .top-menu li a:hover::after{
 	transform: scale(1);
 	opacity: 1;
-	color: #7EF585;
+	color: #000;
 }
 
 /* Ссылки */
@@ -67,7 +67,7 @@ body {
 /* Ссылки при наведении */
 .nav-link:hover {
 	opacity: 1;
-	color: #7EF585;
+	color: #000;
 }
 
 /* Логотип */
@@ -387,6 +387,18 @@ li {
 	font-weight: 500;
 	font-size: 30px;
 }
+
+.scroll-to-top {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 1030;
+  }
+  
+  .scroll-to-top i {
+	font-size: 24px;
+  }
+  
 
 /* Нижняя часть стайта */
 footer {
