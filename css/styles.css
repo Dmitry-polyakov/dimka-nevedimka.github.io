@@ -388,6 +388,7 @@ li {
 	font-size: 30px;
 }
 
+/* Настройки расположения кнопки "Вверх" */
 .scroll-to-top {
 	position: fixed;
 	bottom: 20px;
@@ -398,7 +399,6 @@ li {
   .scroll-to-top i {
 	font-size: 24px;
   }
-  
 
 /* Нижняя часть стайта */
 footer {
@@ -425,6 +425,23 @@ footer {
 .legal-documents,
 .social-links {
     text-align: left;
+}
+
+/* Отображение ссылок */
+
+/* Ссылки */
+.link {
+	display: inline-block;
+	color: #000;
+	opacity: 0.6;
+	text-decoration: none;
+	transition: all .2s ease-in-out;
+}
+
+/* Ссылки при наведении */
+.link:hover {
+	opacity: 1;
+	color: #000;
 }
 
 .social-links {
